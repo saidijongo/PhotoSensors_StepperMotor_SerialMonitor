@@ -1,8 +1,8 @@
 #include <Arduino.h>
 
-const int CW_PIN = 5;
-const int CCW_PIN = 6;
-const int RELAY_PIN = 8;
+const int CW_PIN = 6;
+const int CCW_PIN = 5; //switch
+const int RELAY_PIN = 8; //connected to the digital pins
 const int RIGHT_SENSOR_PIN = 11;
 const int LEFT_SENSOR_PIN = 10;
 
