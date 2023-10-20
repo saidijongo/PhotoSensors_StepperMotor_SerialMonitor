@@ -1,11 +1,11 @@
 
 #define CW 5   
 #define CCW 6  
-#define RIGHT_SENSOR_PIN 11   // Right photomicrosensor pin
-#define LEFT_SENSOR_PIN 10   // Left photomicrosensor pin
+#define RIGHT_SENSOR_PIN 11 
+#define LEFT_SENSOR_PIN 10   
 
 const int stepDelay = 10000;
-const float angleToSteps = 0.72;  // Conversion factor from angle to steps
+const float angleToSteps = 0.72; 
 
 bool motorStopped = true;         // Flag to track motor status
 bool resetInProgress = false;     // Flag for reset process
